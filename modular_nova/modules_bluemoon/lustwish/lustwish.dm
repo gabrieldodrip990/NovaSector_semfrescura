@@ -6,6 +6,7 @@
 	desc = "A nicely-crafted wooden dresser. It's filled with lots of adult toys and clothing."
 	icon = 'modular_nova/modules/aesthetics/stationobjs/stationobjs.dmi'
 	icon_state = "dresser"
+	base_icon_state = "dresser"
 	tiltable = FALSE
 	shut_up = TRUE
 	use_power = FALSE
