@@ -2,6 +2,9 @@
 	name = "GHOST-type Generator"
 	build_path = /obj/machinery/power/port_gen/pacman/bluespace
 
+/obj/item/circuitboard/machine/pacman/bluespace/screwdriver_act(mob/living/user, obj/item/tool)
+	return
+
 /obj/item/circuitboard/machine/rad_collector
 	name = "Radiation Collector"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
