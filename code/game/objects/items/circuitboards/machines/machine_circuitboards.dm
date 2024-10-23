@@ -270,6 +270,9 @@
 
 /obj/item/circuitboard/machine/pacman/examine(mob/user)
 	. = ..()
+	// Bluemoon edit - Disable mode change for GHOST-type generators
+	if(istype(src, /obj/item/circuitboard/machine/pacman/bluespace))
+		return
 	var/message = high_production_profile ? "high-power uranium mode" : "medium-power plasma mode"
 	. += span_notice("It's set to [message].")
 	. += span_notice("You can switch the mode by using a screwdriver on [src].")
