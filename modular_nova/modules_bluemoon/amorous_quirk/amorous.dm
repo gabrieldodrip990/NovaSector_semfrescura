@@ -14,6 +14,5 @@
 	carbon_holder.gain_trauma(/datum/brain_trauma/very_special/amorous, TRAUMA_RESILIENCE_ABSOLUTE)
 
 /datum/quirk/amorous/remove()
-	. = ..()
 	var/mob/living/carbon/carbon_holder = quirk_holder
 	carbon_holder.cure_trauma_type(/datum/brain_trauma/very_special/amorous, TRAUMA_RESILIENCE_ABSOLUTE)
