@@ -8624,6 +8624,7 @@
 #include "modular_nova\modules_bluemoon\beacon_sfx\code\gps_beacon.dm"
 #include "modular_nova\modules_bluemoon\beacon_sfx\code\looping_sound.dm"
 #include "modular_nova\modules_bluemoon\beacon_sfx\code\spaceship_navigation_beacon.dm"
+#include "modular_nova\modules_bluemoon\breathless_quirk\breathless.dm"
 #include "modular_nova\modules_bluemoon\changeling_quirk\changeling.dm"
 #include "modular_nova\modules_bluemoon\crimson_freighter\shuttles.dm"
 #include "modular_nova\modules_bluemoon\crimson_freighter\machinery\machinery.dm"
