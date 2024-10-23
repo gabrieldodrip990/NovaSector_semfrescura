@@ -1,8 +1,12 @@
-/datum/design/board/pacman/bluespace
-	name = "GHOST-type Generator Board"
+/datum/design/board/ghost_generator
+	name = "GHOST Board"
 	desc = "The circuit board for a GHOST-type portable generator."
-	id = "ghostpacman"
+	id = "ghost_generator"
 	build_path = /obj/item/circuitboard/machine/pacman/bluespace
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_ENGINEERING
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/rad_collector
 	name = "Radiation Collector Board"
