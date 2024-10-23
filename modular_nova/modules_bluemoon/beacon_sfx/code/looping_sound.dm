@@ -9,7 +9,7 @@
 		'modular_nova/modules_bluemoon/beacon_sfx/sound/effects/beacon_mid_6.ogg' = 1,
 	)
 	skip_starting_sounds = TRUE
-	volume = 25
+	volume = 5
 	falloff_exponent = 7
 	extra_range = -12
 	falloff_distance = 1
