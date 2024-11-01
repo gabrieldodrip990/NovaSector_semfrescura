@@ -26,7 +26,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 	autolathe_exportable = TRUE
 
-/datum/design/flight_controller
+/datum/design/board/flight_controller
 	name = "Flight Controller"
 	desc = "This lets you fly your custom shuttle"
 	id = "flight_controller"
@@ -39,7 +39,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 	autolathe_exportable = TRUE
 
-/datum/design/flight_computer
+/datum/design/board/flight_computer
 	name = "Navigation Computer"
 	desc = "This lets you find landing locations for your custom shuttle"
 	id = "flight_targeter"
@@ -52,7 +52,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 	autolathe_exportable = TRUE
 
-/datum/design/shuttle_engine
+/datum/design/board/shuttle_engine
 	name = "Bluespace Propulsion Engine"
 	desc = "A standard reliable bluespace engine used by many forms of shuttles."
 	id = "shuttle_engine"
