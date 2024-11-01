@@ -8619,7 +8619,6 @@
 #include "modular_nova\modules_bluemoon\autumnal_cruiser\structures\static_plaques.dm"
 #include "modular_nova\modules_bluemoon\awaymissions\areas.dm"
 #include "modular_nova\modules_bluemoon\awaymissions\forest\forest.dm"
-#include "modular_nova\modules_bluemoon\awaymissions\hestia\hestia.dm"
 #include "modular_nova\modules_bluemoon\awaymissions\university\university.dm"
 #include "modular_nova\modules_bluemoon\beacon_sfx\code\gps_beacon.dm"
 #include "modular_nova\modules_bluemoon\beacon_sfx\code\looping_sound.dm"
