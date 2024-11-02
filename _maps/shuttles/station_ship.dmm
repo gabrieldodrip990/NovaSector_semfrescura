@@ -4460,7 +4460,8 @@
 	},
 /obj/machinery/duct,
 /obj/structure/closet/secure_closet/bar{
-	pixel_y = -6
+	pixel_y = -6;
+	anchored = 1
 	},
 /obj/effect/turf_decal/box,
 /obj/item/storage/box/rubbershot,
