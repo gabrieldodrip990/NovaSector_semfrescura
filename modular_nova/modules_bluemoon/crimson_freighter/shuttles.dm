@@ -2,10 +2,10 @@
 	port_id = "crimson"
 	who_can_purchase = null
 	suffix = "freighter"
-	name = "NTSS 'Crimson'"
+	name = "SEV 'Crimson'"
 
 /area/shuttle/crimson
-	name = "NTSS 'Crimson'"
+	name = "SEV 'Crimson'"
 	requires_power = TRUE
 	fire_detect = FALSE
 
@@ -24,6 +24,6 @@
 	shuttle_id = "crimson"
 	launch_status = 0
 	movement_force = list("KNOCKDOWN"=0,"THROW"=0)
-	name = "NTSS 'Autumnal'"
+	name = "SEV 'Crimson'"
 	port_direction = SOUTH
 	preferred_direction = NORTH

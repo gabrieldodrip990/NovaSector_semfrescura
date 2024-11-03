@@ -1,6 +1,6 @@
 /obj/machinery/computer/shuttle/crimson
-	name = "NTSS 'Crimson'"
-	desc = "Used to control the NTSS 'Crimson'."
+	name = "SEV 'Crimson'"
+	desc = "Used to control the SEV 'Crimson'."
 	icon = 'modular_nova/modules/advanced_shuttles/icons/computer.dmi'
 	icon_state = "computer_left"
 	circuit = /obj/item/circuitboard/computer/crimson
@@ -9,12 +9,12 @@
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
 /obj/item/circuitboard/computer/crimson
-	name = "NTSS 'Crimson' Control Console (Computer Board)"
+	name = "SEV 'Crimson' Control Console (Computer Board)"
 	build_path = /obj/machinery/computer/shuttle/crimson
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/crimson
-	name = "NTSS 'Crimson' Navigation Computer"
-	desc = "Used to designate a precise transit location for the NTSS 'Crimson'."
+	name = "SEV 'Crimson' Navigation Computer"
+	desc = "Used to designate a precise transit location for the SEV 'Crimson'."
 	icon = 'modular_nova/modules/advanced_shuttles/icons/computer.dmi'
 	icon_state = "computer"
 	shuttleId = "crimson"
