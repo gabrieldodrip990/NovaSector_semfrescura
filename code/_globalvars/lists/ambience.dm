@@ -111,7 +111,7 @@ GLOBAL_LIST_INIT(spooky_ambience,list(
 ))
 
 GLOBAL_LIST_INIT(space_ambience,list(
-	// Bluemoon edit - Disable starlight music in space ambience
+	// Bluemoon edit - Disable music in space ambience
 	// 'modular_nova/master_files/sound/ambience/starlight.ogg', //NOVA EDIT ADDITION
 	'sound/ambience/ambiatmos.ogg',
 	'sound/ambience/ambispace.ogg',
@@ -120,7 +120,8 @@ GLOBAL_LIST_INIT(space_ambience,list(
 	'sound/ambience/ambispace4.ogg',
 	'sound/ambience/ambispace5.ogg',
 	'sound/ambience/ambispace6.ogg',
-	'sound/ambience/title2.ogg',
+	// Bluemoon edit - Disable music in space ambience
+	// 'sound/ambience/title2.ogg',
 ))
 
 GLOBAL_LIST_INIT(maint_ambience,list(
