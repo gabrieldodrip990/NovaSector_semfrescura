@@ -64,7 +64,8 @@
 		. += "portagrav_anchors"
 	if(on)
 		. += "portagrav_o"
-		. += "activated"
+	// Bluemoon edit - Disable portable gravity field effect
+	//	. += "activated"
 
 /obj/machinery/power/portagrav/examine(mob/user)
 	. = ..()
@@ -80,11 +81,13 @@
 	for(var/datum/stock_part/micro_laser/laser in component_parts)
 		power_usage -= BASE_MACHINE_ACTIVE_CONSUMPTION / 10 * (laser.tier - 1)
 	draw_per_range = power_usage
-	var/new_range = 4
+	// Bluemoon edit - Increase portable gravity unit max range
+	var/new_range = 50
 	for(var/datum/stock_part/capacitor/capacitor in component_parts)
 		new_range += capacitor.tier
 	max_range = new_range
-	update_field()
+	// Bluemoon edit - Disable portable gravity field effect
+	//update_field()
 
 /obj/machinery/power/portagrav/screwdriver_act(mob/living/user, obj/item/tool)
 	. = NONE
@@ -178,7 +181,8 @@
 		balloon_alert(user, "turned on")
 	on = TRUE
 	START_PROCESSING(SSmachines, src)
-	gravity_field = new(src, range = src.range, gravity = grav_strength)
+	// Bluemoon edit - Disable portable gravity field effect
+	//gravity_field = new(src, range = src.range, gravity = grav_strength)
 	update_appearance()
 
 /obj/machinery/power/portagrav/proc/turn_off(mob/user)
@@ -186,7 +190,8 @@
 	if(!isnull(user))
 		balloon_alert(user, "turned off")
 	STOP_PROCESSING(SSmachines, src)
-	QDEL_NULL(gravity_field)
+	// Bluemoon edit - Disable portable gravity field effect
+	//QDEL_NULL(gravity_field)
 	update_appearance()
 
 /obj/machinery/power/portagrav/process(seconds_per_tick)
@@ -200,13 +205,15 @@
 	else
 		if(!cell?.use(draw_per_range * range))
 			turn_off()
-
+// Bluemoon edit - Disable portable gravity field effect
+/*
 /obj/machinery/power/portagrav/proc/update_field()
 	if(isnull(gravity_field))
 		return
 	gravity_field.set_range(range)
 	gravity_field.gravity_value = grav_strength
 	gravity_field.recalculate_field(full_recalc = TRUE)
+*/
 
 /obj/machinery/power/portagrav/ui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
@@ -241,7 +248,8 @@
 			if(result == grav_strength)
 				return
 			grav_strength = result
-			update_field()
+			// Bluemoon edit - Disable portable gravity field effect
+			//update_field()
 			return TRUE
 		if("toggle_power")
 			toggle_on(usr)
@@ -261,7 +269,8 @@
 			if(result == range)
 				return
 			range = result
-			update_field()
+			// Bluemoon edit - Disable portable gravity field effect
+			//update_field()
 			return TRUE
 
 /obj/machinery/power/portagrav/anchored
