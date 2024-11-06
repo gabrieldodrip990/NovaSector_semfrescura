@@ -8684,6 +8684,7 @@
 #include "modular_nova\modules_bluemoon\methane\gasmixtures\gas_types.dm"
 #include "modular_nova\modules_bluemoon\methane\gasmixtures\reaction_factors.dm"
 #include "modular_nova\modules_bluemoon\methane\gasmixtures\reactions.dm"
+#include "modular_nova\modules_bluemoon\mutations\breathless.dm"
 #include "modular_nova\modules_bluemoon\mutations\dna_injector.dm"
 #include "modular_nova\modules_bluemoon\mutations\kinetic_absorption.dm"
 #include "modular_nova\modules_bluemoon\nudist_quirk\nudist.dm"
