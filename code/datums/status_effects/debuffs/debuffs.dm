@@ -261,7 +261,7 @@
 		owner.emote("snore")
 
 	// Bluemoon edit - Prolong sleep indefinitely when client disconnects
-	if(!owner.client)
+	if(owner.lastKnownIP && !owner.client)
 		pause_expiry = TRUE
 	else
 		pause_expiry = FALSE
