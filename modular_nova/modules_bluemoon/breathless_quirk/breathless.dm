@@ -6,7 +6,7 @@
 	gain_text = span_notice("Your don't feel the need to breathe.")
 	lose_text = span_warning("Your feel the need to breathe again!")
 	medical_record_text = "Subject doesn't require any respiration."
-	icon = FA_ICON_HEAD_SIDE_COUGH_SLASH
+	icon = FA_ICON_HEAD_SIDE_MASK
 
 /datum/quirk/amorous/add()
 	ADD_TRAIT(quirk_holder, TRAIT_NOBREATH, QUIRK_TRAIT)
