@@ -1,4 +1,4 @@
-#define GENERATOR_SOUNDPATH(filename) "modular_nova/modules/generators/sound/" + ##filename
+#define GENERATOR_SOUNDPATH(filename) "modular_nova/modules_bluemoon/generators/sound/" + ##filename
 
 // Bluemoon edit - Quiet supermatter shard
 /datum/looping_sound/supermatter/shard

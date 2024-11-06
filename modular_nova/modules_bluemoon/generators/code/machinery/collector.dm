@@ -12,6 +12,7 @@
 	max_integrity = 350
 	integrity_failure = 0.2
 	rad_insulation = RAD_EXTREME_INSULATION
+	circuit = /obj/item/circuitboard/machine/rad_collector
 	///Stores the loaded tank instance
 	var/obj/item/tank/internals/plasma/loaded_tank = null
 	///Is the collector working?
