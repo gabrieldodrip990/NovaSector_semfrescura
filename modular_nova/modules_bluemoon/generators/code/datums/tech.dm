@@ -2,5 +2,6 @@
 	design_ids += list(
 		"ghost_generator",
 		"rad_collector",
+		"port_grav",
 	)
 	return ..()

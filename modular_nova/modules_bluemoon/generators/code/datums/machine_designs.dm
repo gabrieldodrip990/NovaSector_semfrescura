@@ -27,3 +27,12 @@
 	category = list(
 		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_ENGINEERING
 	)
+/datum/design/board/portagrav
+	name = "Portable Gravity Generator Board"
+	desc = "The circuit board for a portable gravity generator."
+	id = "port_grav"
+	build_path = /obj/item/circuitboard/machine/portagrav
+	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
+	category = list(
+		RND_CATEGORY_MACHINE + RND_SUBCATEGORY_MACHINE_ENGINEERING
+	)
