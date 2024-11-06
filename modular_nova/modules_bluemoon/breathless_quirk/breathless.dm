@@ -8,8 +8,8 @@
 	medical_record_text = "Subject doesn't require any respiration."
 	icon = FA_ICON_HEAD_SIDE_MASK
 
-/datum/quirk/amorous/add()
+/datum/quirk/breathless/add()
 	ADD_TRAIT(quirk_holder, TRAIT_NOBREATH, QUIRK_TRAIT)
 
-/datum/quirk/amorous/remove()
+/datum/quirk/breathless/remove()
 	REMOVE_TRAIT(quirk_holder, TRAIT_NOBREATH, QUIRK_TRAIT)
