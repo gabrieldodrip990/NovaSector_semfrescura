@@ -1420,14 +1420,14 @@
 			use_energy(50 JOULES)
 			// Bluemoon edit - Custom airlock sounds
 			if(quiet)
-				playsound(src, doorClose, 15, FALSE, ignore_walls = TRUE)
+				playsound(src, doorClose, 15, FALSE, ignore_walls = FALSE)
 			else
-				playsound(src, doorClose, 30, FALSE, ignore_walls = TRUE)
+				playsound(src, doorClose, 30, FALSE, ignore_walls = FALSE)
 			return TRUE
 
 		if(BYPASS_DOOR_CHECKS)
 			// Bluemoon edit - Custom airlock sounds
-			playsound(src, forcedClosed, 30, FALSE, ignore_walls = TRUE)
+			playsound(src, forcedClosed, 30, FALSE, ignore_walls = FALSE)
 			/*
 			playsound(src, 'sound/machines/airlockforced.ogg', 30, TRUE)
 			*/
