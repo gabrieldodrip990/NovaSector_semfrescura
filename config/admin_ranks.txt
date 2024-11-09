@@ -50,7 +50,7 @@ Exclude =
 Edit =
 
 Name = Trial Admin
-Include = @ SPAWN VAREDIT BAN
+Include = @ BUILD SPAWN VAREDIT
 Exclude =
 Edit =
 
@@ -83,3 +83,8 @@ Name = Coder
 Include = DEBUG VAREDIT SERVER SPAWN POLL
 Exclude = AUTOADMIN
 Edit =
+
+Name = Head Admin
+Include = EVERYTHING
+Exclude =
+Edit = EVERYTHING
