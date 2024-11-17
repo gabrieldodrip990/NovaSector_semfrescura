@@ -2378,6 +2378,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/any/command/captain,
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/captain)
 "kP" = (
@@ -8043,6 +8044,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "IG" = (
@@ -8074,6 +8076,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "IM" = (
@@ -8303,6 +8306,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "Jt" = (
@@ -8327,6 +8331,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "Jw" = (
@@ -8341,6 +8346,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "Jy" = (
@@ -8350,6 +8356,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "Jz" = (
@@ -8367,6 +8374,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "JD" = (
@@ -8569,6 +8577,7 @@
 /obj/machinery/door/airlock{
 	name = "Private Restroom"
 	},
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/iron/freezer,
 /area/station/command/heads_quarters/captain/private)
 "Kp" = (
@@ -8626,6 +8635,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "KF" = (
@@ -8786,6 +8796,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/iron/freezer,
 /area/station/commons/dorms/barracks)
 "Ln" = (
@@ -8794,6 +8805,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/iron/freezer,
 /area/station/commons/dorms/barracks)
 "Lp" = (
@@ -9091,6 +9103,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
 "MC" = (
@@ -11226,10 +11239,6 @@
 /obj/effect/turf_decal/vg_decals/numbers/zero,
 /turf/open/floor/iron/recharge_floor,
 /area/station/hallway/primary/central)
-"VR" = (
-/obj/docking_port/stationary/autumnal,
-/turf/open/space/basic,
-/area/space)
 "VS" = (
 /obj/structure/sign/warning/electric_shock/directional/south,
 /obj/structure/cable,
@@ -11989,6 +11998,7 @@
 	},
 /obj/effect/landmark/navigate_destination/chapel,
 /obj/effect/mapping_helpers/airlock/access/any/service/chapel_office,
+/obj/effect/mapping_helpers/airlock/vented,
 /turf/open/floor/wood,
 /area/station/service/library)
 "YV" = (
@@ -54010,7 +54020,7 @@ nv
 nv
 nv
 nv
-VR
+nv
 nv
 nv
 nv
