@@ -3604,7 +3604,7 @@
 	},
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "pB" = (
 /obj/structure/rack,
 /obj/item/tank/internals/plasmaman/belt/full,
@@ -6301,11 +6301,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/station/commons/dorms/barracks)
-"Be" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
-/turf/open/space/basic,
-/area/space/nearstation)
 "Bf" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron,
@@ -8470,10 +8465,6 @@
 /obj/effect/spawner/random/bedsheet,
 /turf/open/floor/carpet,
 /area/station/commons/dorms/barracks)
-"JS" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space)
 "JV" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	dir = 8
@@ -8540,11 +8531,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
-"Kj" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
-/turf/open/space/basic,
-/area/space)
 "Kl" = (
 /obj/machinery/button/door{
 	id = "Cabin6";
@@ -28806,7 +28792,7 @@ oO
 oO
 nA
 Jm
-Kj
+Di
 nC
 dI
 tG
@@ -29063,7 +29049,7 @@ oO
 oF
 oF
 nv
-Kj
+Di
 Wl
 aG
 aG
@@ -29320,7 +29306,7 @@ oF
 oF
 RI
 nv
-Kj
+Di
 oI
 vS
 Sw
@@ -29577,7 +29563,7 @@ oF
 RI
 RI
 RI
-Kj
+Di
 DD
 ID
 jO
@@ -29834,7 +29820,7 @@ nv
 RI
 nv
 RI
-Be
+Di
 sQ
 iS
 AN
@@ -30091,7 +30077,7 @@ nv
 QD
 ZI
 nv
-Be
+Di
 DD
 Vr
 fg
@@ -30605,7 +30591,7 @@ nv
 RI
 nv
 nv
-SS
+jv
 Ig
 PR
 GO
@@ -30862,7 +30848,7 @@ nv
 RI
 nv
 RI
-SS
+jv
 Ig
 PR
 GO
@@ -31119,7 +31105,7 @@ oF
 RI
 RI
 RI
-JS
+jv
 xp
 cU
 nU
@@ -31376,7 +31362,7 @@ oF
 oF
 RI
 nv
-JS
+jv
 zP
 FP
 kf
@@ -31633,7 +31619,7 @@ TO
 oF
 oF
 nv
-JS
+jv
 jP
 Lx
 kq
@@ -31890,7 +31876,7 @@ TO
 TO
 nA
 Jm
-JS
+jv
 jP
 jW
 Xz
