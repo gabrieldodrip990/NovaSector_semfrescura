@@ -8623,6 +8623,7 @@
 #include "modular_nova\modules_bluemoon\breathless_quirk\breathless.dm"
 #include "modular_nova\modules_bluemoon\changeling_quirk\changeling.dm"
 #include "modular_nova\modules_bluemoon\client\client_procs.dm"
+#include "modular_nova\modules_bluemoon\crafting\containers.dm"
 #include "modular_nova\modules_bluemoon\crafting\sheet_types.dm"
 #include "modular_nova\modules_bluemoon\crimson_freighter\shuttles.dm"
 #include "modular_nova\modules_bluemoon\crimson_freighter\machinery\machinery.dm"
