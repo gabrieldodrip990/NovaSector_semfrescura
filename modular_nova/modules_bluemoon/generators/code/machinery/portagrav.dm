@@ -17,7 +17,6 @@
 		appearance_flags = RESET_COLOR,
 	)
 	SET_PLANE_EXPLICIT(portagrav_overlay, ABOVE_LIGHTING_PLANE, src)
-	add_overlay(portagrav_overlay)
 
 /obj/machinery/power/portagrav/update_icon()
 	. = ..()
@@ -29,11 +28,13 @@
 		. += "portagrav_fix_o"
 
 /obj/machinery/power/portagrav/proc/finish_startup()
+	cut_overlay(portagrav_overlay)
 	portagrav_overlay.icon_state = "activated"
+	add_overlay(portagrav_overlay)
 	flick_timerid = null
 
 /obj/machinery/power/portagrav/proc/finish_shutdown()
-	portagrav_overlay.icon_state = ""
+	cut_overlay(portagrav_overlay)
 	flick_timerid = null
 
 /obj/machinery/power/portagrav/toggle_on(mob/user)
@@ -46,25 +47,28 @@
 /obj/machinery/power/portagrav/turn_on(mob/user)
 	. = ..()
 	if(on)
-		if(flick_timerid)
-			deltimer(flick_timerid)
-		portagrav_overlay.icon_state = "startup"
-		flick_timerid = addtimer(CALLBACK(src, PROC_REF(finish_startup)), 15, TIMER_CLIENT_TIME | TIMER_DELETE_ME | TIMER_STOPPABLE)
+		return
+	if(flick_timerid)
+		deltimer(flick_timerid)
+	portagrav_overlay.icon_state = "startup"
+	add_overlay(portagrav_overlay)
+	flick_timerid = addtimer(CALLBACK(src, PROC_REF(finish_startup)), 15, TIMER_CLIENT_TIME | TIMER_DELETE_ME | TIMER_STOPPABLE)
 
 /obj/machinery/power/portagrav/turn_off(mob/user)
 	. = ..()
-	if(!on)
-		if(flick_timerid)
-			deltimer(flick_timerid)
-		portagrav_overlay.icon_state = "shutdown"
-		flick_timerid = addtimer(CALLBACK(src, PROC_REF(finish_shutdown)), 9, TIMER_CLIENT_TIME | TIMER_DELETE_ME | TIMER_STOPPABLE)
+	if(on)
+		return
+	if(flick_timerid)
+		deltimer(flick_timerid)
+	portagrav_overlay.icon_state = "shutdown"
+	flick_timerid = addtimer(CALLBACK(src, PROC_REF(finish_shutdown)), 9, TIMER_CLIENT_TIME | TIMER_DELETE_ME | TIMER_STOPPABLE)
 
 /obj/machinery/power/portagrav/screwdriver_act(mob/living/user, obj/item/tool)
-	. = NONE
-	if(default_deconstruction_screwdriver(user, "portagrav_fix", base_icon_state, tool))
-		if(on)
-			turn_off(user)
-		update_appearance()
-		return ITEM_INTERACT_SUCCESS
+	if(!default_deconstruction_screwdriver(user, "portagrav_fix", base_icon_state, tool))
+		return NONE
+	if(on)
+		turn_off(user)
+	update_appearance(UPDATE_ICON)
+	return ITEM_INTERACT_SUCCESS
 
 #undef PORTAGRAV_ICON_FILE
