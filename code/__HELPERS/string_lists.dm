@@ -18,7 +18,7 @@ GLOBAL_LIST_EMPTY(string_lists)
 	if(!islist(values))
 		return values //baseturf things
 	// return values
-	// Bluemoon edit - Custom shuttles
+	// Bluemoon edit - Silence baseturf list stacktrace
 	/*
 	if(length(values) > 10)
 		stack_trace("The baseturfs list of [baseturf_holder] at [baseturf_holder.x], [baseturf_holder.y], [baseturf_holder.x] is [length(values)], it should never be this long, investigate. I've set baseturfs to a flashing wall as a visual queue")
