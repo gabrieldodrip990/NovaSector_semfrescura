@@ -22,13 +22,6 @@
 /obj/machinery/computer/camera_advanced/shuttle_creator/is_operational()
 	return TRUE
 */
-/obj/machinery/computer/camera_advanced/shuttle_creator/can_interact(mob/user)
-	if(!isliving(user))
-		return FALSE
-	var/mob/living/L = user
-	if(L.incapacitated())
-		return FALSE
-	return TRUE
 
 /obj/machinery/computer/camera_advanced/shuttle_creator/GrantActions(mob/living/user)
 	..(user)

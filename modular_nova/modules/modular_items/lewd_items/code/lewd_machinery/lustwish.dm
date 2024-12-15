@@ -159,6 +159,7 @@
 				/obj/item/storage/box/shibari_stand = 4,
 				/obj/item/storage/box/strippole_kit = 4,
 				/obj/item/storage/box/xstand_kit = 4,
+				/obj/item/holosign_creator/privacy = 4,
 			),
 		),
 	)
@@ -207,7 +208,7 @@
 /obj/machinery/vending/dorms/proc/check_menu(mob/living/user, obj/item/multitool)
 	if(!istype(user))
 		return FALSE
-	if(user.incapacitated())
+	if(user.incapacitated)
 		return FALSE
 	if(!multitool || !user.is_holding(multitool))
 		return FALSE

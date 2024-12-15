@@ -25,7 +25,7 @@
 	name = "Glowing Forest"
 	icon_state = "away4"
 	base_lighting_color = "#8fdef7"
-	ambient_buzz = 'sound/ambience/aurora_caelus.ogg'
+	ambient_buzz = 'sound/ambience/aurora_caelus/aurora_caelus.ogg'
 	ambient_buzz_vol = 15
 
 /area/awaymission/forest/caves //entrance

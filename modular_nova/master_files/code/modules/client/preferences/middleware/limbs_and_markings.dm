@@ -29,7 +29,6 @@
 		"lungs" = "Lungs",
 		"liver" = "Liver",
 		"stomach" = "Stomach",
-		// Bluemoon edit - Add ears augment slot
 		"ears" = "Ears",
 		"eyes" = "Eyes",
 		"tongue" = "Tongue",

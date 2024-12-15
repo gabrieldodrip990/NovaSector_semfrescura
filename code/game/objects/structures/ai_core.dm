@@ -61,7 +61,6 @@
 
 /obj/structure/ai_core/Destroy()
 	if(istype(remote_ai))
-		remote_ai.break_core_link()
 		remote_ai = null
 	QDEL_NULL(circuit)
 	QDEL_NULL(core_mmi)

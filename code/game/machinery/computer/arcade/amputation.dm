@@ -17,9 +17,9 @@
 	user.played_game()
 	var/obj/item/bodypart/chopchop = user.get_active_hand()
 	if(do_after(user, 5 SECONDS, target = src, extra_checks = CALLBACK(src, PROC_REF(do_they_still_have_that_hand), user, chopchop)))
-		playsound(src, 'sound/weapons/slice.ogg', 25, TRUE, -1)
+		playsound(src, 'sound/items/weapons/slice.ogg', 25, TRUE, -1)
 		// Bluemoon edit - Remove amputation from arcade machine
-		to_chat(user, span_userdanger("The guillotine drops on your arm, but it only bruises! It's dull and plastic!"))
+		to_chat(user, span_userdanger("The guillotine drops on your arm, but it only bruises! The blade is dull and plastic!"))
 		chopchop.receive_damage(brute = 8)
 		/*
 		chopchop.dismember()
@@ -28,13 +28,13 @@
 		// Bluemoon edit - Reduce amputation arcade machine experience points
 		user.mind?.adjust_experience(/datum/skill/gaming, 10)
 		user.won_game()
-		playsound(src, 'sound/arcade/win.ogg', 50, TRUE)
+		playsound(src, 'sound/machines/arcade/win.ogg', 50, TRUE)
 		new /obj/item/stack/arcadeticket((get_turf(src)), rand(6,10))
 		to_chat(user, span_notice("[src] dispenses a handful of tickets!"))
 		return
 	if(!do_they_still_have_that_hand(user, chopchop))
 		to_chat(user, span_warning("The guillotine drops, but your hand seems to be gone already!"))
-		playsound(src, 'sound/weapons/slice.ogg', 25, TRUE, -1)
+		playsound(src, 'sound/items/weapons/slice.ogg', 25, TRUE, -1)
 	else
 		to_chat(user, span_notice("You (wisely) decide against putting your hand in the machine."))
 	user.lost_game()

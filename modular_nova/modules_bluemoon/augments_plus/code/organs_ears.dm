@@ -1,6 +1,3 @@
-/datum/augment_item/organ/ears
-	slot = AUGMENT_SLOT_EARS
-
 /datum/augment_item/organ/ears/upgraded_ears
 	name = "Upgraded Cybernetic Ears"
 	path = /obj/item/organ/internal/ears/cybernetic/upgraded

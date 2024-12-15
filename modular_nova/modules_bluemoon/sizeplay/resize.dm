@@ -54,9 +54,9 @@
 	var/prior_size = user.current_size
 	user.adjust_height(set_size, op_mode)
 	if(user.current_size > prior_size)
-		playsound(src, 'sound/vox_fem/big.ogg',50,FALSE)
+		playsound(src, 'sound/announcer/vox_fem/big.ogg',50,FALSE)
 	else
-		playsound(src, 'sound/vox_fem/small.ogg',50,FALSE)
+		playsound(src, 'sound/announcer/vox_fem/small.ogg',50,FALSE)
 
 /obj/item/debug/sizebutton/attack_self_secondary(mob/living/carbon/user)
 	switch(op_mode) //Handling for changing modes back and forth between RESIZE_SCALE and RESIZE_SET.

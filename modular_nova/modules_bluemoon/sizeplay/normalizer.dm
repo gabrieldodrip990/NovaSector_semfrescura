@@ -18,7 +18,7 @@
 /obj/item/clothing/proc/normalize(mob/living/carbon/human/user, set_value) // Normalize the user to the set size.
 	if(user.is_normalized == TRUE)
 		to_chat(user, span_notice("The [src] buzzes and flashes red a couple of times. It cannot normalize what is already normalized!"))
-		playsound(user, 'sound/machines/buzz-two.ogg', 20, FALSE)
+		playsound(user, 'sound/machines/buzz/buzz-two.ogg', 20, FALSE)
 		return
 	else
 		playsound(user, 'sound/effects/magic.ogg', 20, FALSE)
@@ -38,7 +38,7 @@
 	src.normalizer_size = input(user, "Adjust size increment?", "New size", 1) as num
 	if(normalizer_size > user.natural_size) // Prompt the user again if they entered an invalid value.
 		balloon_alert(user, "[normalizer_size] is to big!")
-		playsound(user, 'sound/machines/buzz-two.ogg', 20, FALSE)
+		playsound(user, 'sound/machines/buzz/buzz-two.ogg', 20, FALSE)
 		normalizer_size = 1
 	if(normalizer_size < 0.5)
 		balloon_alert(user, "[normalizer_size] is to small!")
