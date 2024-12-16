@@ -8787,6 +8787,7 @@
 #include "modular_nova\modules_bluemoon\augments_plus\code\organs_ears.dm"
 #include "modular_nova\modules_bluemoon\augments_plus\code\organs_eyes.dm"
 #include "modular_nova\modules_bluemoon\awaymissions\areas.dm"
+#include "modular_nova\modules_bluemoon\awaymissions\gateway.dm"
 #include "modular_nova\modules_bluemoon\awaymissions\forest\forest.dm"
 #include "modular_nova\modules_bluemoon\awaymissions\university\university.dm"
 #include "modular_nova\modules_bluemoon\beacon_sfx\code\gps_beacon.dm"
