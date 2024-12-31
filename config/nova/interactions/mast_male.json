@@ -1,0 +1,25 @@
+{
+	"name": "Jerk off",
+	"description": "Show yourself some love.",
+	"usage": "self",
+	"category": "Lewd",
+	"lewd": 1,
+	"distance_allowed": 1,
+	"message": [
+		"%USER% jerks off.",
+		"%USER% stimulates their shaft."
+	],
+	"sound_use": 0,
+	"sound_possible": [
+	],
+	"sound_range": 7,
+	"interaction_requires": [
+		"self_hand"
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"user_arousal": 8,
+	"user_pleasure": 6,
+	"color": "purple"
+}

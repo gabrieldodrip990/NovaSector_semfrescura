@@ -1,0 +1,19 @@
+{
+	"name": "Kiss",
+	"description": "Kiss them deeply.",
+	"usage": "other",
+	"category": "Lewd",
+	"distance_allowed": 0,
+	"lewd": 1,
+	"color": "purple",
+	"message": [
+		"%USER% kisses %TARGET%.",
+		"%USER% smooches %TARGET%"
+	],
+	"sound_use": 0,
+	"sound_possible": [
+	],
+	"sound_range": 7,
+	"interaction_requires": [
+	]
+}

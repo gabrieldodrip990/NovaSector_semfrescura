@@ -1,0 +1,28 @@
+{
+	"name": "Give them a breastjob",
+	"description": "Self explanatory.",
+	"usage": "other",
+	"category": "Lewd",
+	"lewd": 1,
+	"distance_allowed": 0,
+	"message": [
+		"%USER% jerks %TARGET% off with their breasts.",
+		"%USER% stimulates %TARGET%'s shaft with their breasts."
+	],
+	"sound_use": 0,
+	"sound_possible": [
+	],
+	"sound_range": 7,
+	"interaction_requires": [
+		"self_hand"
+	],
+	"user_required_parts": [
+		"breasts"
+	],
+	"target_required_parts": [
+		"penis"
+	],
+	"target_arousal": 8,
+	"target_pleasure": 6,
+	"color": "purple"
+}

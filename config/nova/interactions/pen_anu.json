@@ -1,0 +1,30 @@
+{
+	"name": "Fuck their ass",
+	"description": "Show em' some love.",
+	"usage": "other",
+	"category": "Lewd",
+	"color": "purple",
+	"lewd": 1,
+	"distance_allowed": 0,
+	"message": [
+		"%USER% pounds %TARGET%'s ass.",
+		"%USER% goes balls deep in %TARGET%'s ass over and over.",
+		"%USER% slams their hips up against %TARGET%'s ass hard."
+	],
+	"sound_use": 0,
+	"sound_possible": [
+	],
+	"sound_range": 7,
+	"interaction_requires": [
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"target_required_parts": [
+		"anus"
+	],
+	"user_arousal": 8,
+	"user_pleasure": 6,
+	"target_arousal": 10,
+	"target_pleasure": 8
+}

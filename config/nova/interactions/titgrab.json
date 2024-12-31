@@ -1,0 +1,24 @@
+{
+	"name": "Grope their breasts.",
+	"description": "Self explanatory.",
+	"usage": "other",
+	"category": "Lewd",
+	"lewd": 1,
+	"distance_allowed": 0,
+	"message": [
+		"%USER% gropes %TARGET%'s breasts.",
+		"%USER% tightly holds %TARGET%'s breasts.",
+		"%USER% fondles with %TARGET%'s nipples."
+	],
+	"sound_use": 0,
+	"sound_possible": [
+	],
+	"sound_range": 7,
+	"interaction_requires": [
+		"self_hand"
+	],
+	"target_required_parts": [
+		"breasts"
+	],
+	"color": "purple"
+}

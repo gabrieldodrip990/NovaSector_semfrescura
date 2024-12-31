@@ -1,0 +1,24 @@
+{
+	"name": "Finger your ass",
+	"description": "Show yourself some love.",
+	"usage": "self",
+	"category": "Lewd",
+	"lewd": 1,
+	"distance_allowed": 1,
+	"message": [
+		"%USER% fingers their rear."
+	],
+	"sound_use": 0,
+	"sound_possible": [
+	],
+	"sound_range": 7,
+	"interaction_requires": [
+		"self_hand"
+	],
+	"user_required_parts": [
+		"anus"
+	],
+	"user_arousal": 8,
+	"user_pleasure": 6,
+	"color": "purple"
+}

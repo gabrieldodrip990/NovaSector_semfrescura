@@ -1,0 +1,29 @@
+{
+	"name": "Ride them with your pussy",
+	"description": "It's your turn to take the lead.",
+	"usage": "other",
+	"category": "Lewd",
+	"color": "purple",
+	"lewd": 1,
+	"distance_allowed": 0,
+	"message": [
+		"%USER% forces their pussy onto %TARGET%'s cock.",
+		"%USER% bounces on %TARGET%'s knob."
+	],
+	"sound_use": 0,
+	"sound_possible": [
+	],
+	"sound_range": 7,
+	"interaction_requires": [
+	],
+	"user_required_parts": [
+		"vagina"
+	],
+	"target_required_parts": [
+		"penis"
+	],
+	"user_arousal": 8,
+	"user_pleasure": 6,
+	"target_arousal": 10,
+	"target_pleasure": 8
+}
