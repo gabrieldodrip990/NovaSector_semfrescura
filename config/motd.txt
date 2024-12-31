@@ -1,5 +1,10 @@
-<!-- Most valid html will work in here, but you have to use URL links for images. -->
+<!-- Most valid html will work in here, excluding images. -->
 
-<h1>Welcome to Space Station 13!</h1>
 
-<i>This server is running a /tg/station 13 Git build.</i>
+<h1>Welcome to Matagal Station!</h1>
+
+
+<i>This server is running a Nova Station Git build.</i>
+<i>Só lembrando que a comida está pronta a comida está pronta e jantar agora bife feijoada comprei feijoada pão e mortadela pão e presunto Essa música tem mensagem Ah e outra coisa a jovem guarda não era um estilo musical a jovem guarda era apenas um programa de televisão né então a partir dos anos 70 alguém aí colocou como jovem guarda para fazer as coletâneas de disco né, porque na verdade a jovem guarda era IE, twist rock instrumental e baladas românticas é uma mistura desses ritmos então se tivesse um túnel do tempo e você voltasse a 1997 você não ia encontrar nenhum disco da jovem guarda porque jovem guarda era um programa de televisão não era o estilo musical. Então a jovem guarda é um conjunto de estilos só para ficar bem claro.
+Acabei de ver na televisão mais um da jovem guarda 81 anos, o tempo vai passando né não tem jeito se você fizer uma lista de cantores da jovem guarda você fala nossa quantos hein. Jerry Adriane é Silvinha Demétrius é um monte alguns dos incríveis Renato nossa teve muita gente hein mas o tempo vai passando e é coisas da vida mesmo.
+Ok vou levar 5 minutos para esquentar esse carro já vou saindo deixei r$ 30 embaixo do vaso perto do telefone no corredor assim que você pegar avisa para eu saber que foi você que pegou r$ 30</i>
